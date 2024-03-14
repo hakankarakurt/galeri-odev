@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+
+}
+.photos{
+    max-width: 50%;
+    margin: 20px auto ;
+    background-color: aquamarine;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 10px 10px 10px 10px chocolate;
+    
+
+}
+.photo img{
+    border-radius: 10px;
+    margin: 1.75px;
+    filter: grayscale();
+    opacity: 95%;
+    width: 200px;
+    height: 200px;
+}
+.photo img:hover{
+    filter:brightness();
+    height: 250px;
+    width: 250px;
+    border-radius: 60px;
+    
+}
+.baslik{
+    color: coral;
+    background-color:black;
+   text-align: center;
+   border-radius: 30px;
+   margin: 5px auto;
+   padding: 1rem;
+   width: 1000px;
+
+}
